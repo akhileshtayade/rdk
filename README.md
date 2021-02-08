@@ -2,7 +2,7 @@
 This code was used to introduce students(registered in the course, Decision making and the brain at IIT Kanpur(Spring Semester, 2021)) to the Random Dot Kinematogram(RDK).
 
 Please follow to the following steps to visualise the RDK:
-1. Download the latest version of jsPsych(https://github.com/jspsych/jsPsych/) into a directory.
+1. Download the latest version of jsPsych(https://github.com/jspsych/jsPsych/) into a directory(check the right side of the page, under 'Releases.')
 2. If the downloaded jsPsych-#.#.# is a zip folder, extract the folder.
 3. Now download the file 'rdk.html' into the same directory where the extracted jsPscyh-#.#.# folder is.
 4. Open 'rdk.html' in the browser,' and manually, switch the browser to the fullscreen mode.

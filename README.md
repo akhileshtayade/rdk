@@ -7,7 +7,7 @@ Please follow to the following steps to visualise the RDK:
 3. Now download the file **rdk.html**(from this github repo) into the same directory where the extracted jsPscyh folder is.
 4. Open **rdk.html** in the browser, and switch the browser to the fullscreen mode manually.
 5. If everything has gone well, you will be able to see a blue fixation mark at the centre of the screen.
-6. Press any key on the keyboard to view the RDK. Blue colored dots moving inside a elliptical region would pop up! 
+6. Press any key on the keyboard to view the RDK. Blue colored dots moving inside an elliptical region would pop up! 
 
 If you want to change the properties of the RDK, please visit https://www.jspsych.org/plugins/jspsych-rdk/ and refer to the parameters mentioned in detail. If you wish to add more stimuli to this small demonstration using jsPsych library, please visit to https://www.jspsych.org/. 
 

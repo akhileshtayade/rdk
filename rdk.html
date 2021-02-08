@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Where are you looking?!</title>
+    <script src="jspsych-6.2.0/jspsych.js"></script>
+    <script src="jspsych-6.2.0/plugins/jspsych-rdk.js"></script>
+    <script src="jspsych-6.2.0/plugins/jspsych-html-keyboard-response.js"></script>
+    <link href="jspsych-6.2.0/css/jspsych.css" rel="stylesheet" type="text/css">
+  </head>
+  <body style = "background-color: rgb(0,0,0)"> </body>
+  <script type = "text/javascript">
+  var timeline = [];
+
+  var fixation = {
+    type: 'html-keyboard-response',
+    stimulus: '<p style="color: blue;">+</p>',
+  };
+
+  timeline.push(fixation);
+
+  var test_block = {
+    type: "rdk",
+    choices: ["r","l"],
+    correct_choice: "r",
+    background_color: 'black',
+    dot_color:"blue",
+    dot_radius: 3,
+    trial_duration: 5000,
+    border: true,
+    RDK_type: 4,
+    coherence: 0.8, //Values range from 0 - 1
+    aperture_type: 2 //Aperture where dots appear is an ellipse by default
+  };
+
+  timeline.push(test_block);
+
+
+  jsPsych.init({
+    timeline: timeline
+  });
+  </script>
+</html>

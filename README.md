@@ -1,5 +1,5 @@
 # Random Dot Kinematogram
-This code was used to introduce the students in the course, Decision making and the brain at IIT Kanpur(Spring Semester, 2021) to the Random Dot Kinematogram(RDK).
+This code was used to introduce students of the course, Decision making and the brain(Spring Semester @ IIT Kanpur, 2021) to Random Dot Kinematogram(RDK).
 
 Please follow the following steps to visualise the RDK:
 1. Download the latest version of [jsPsych](https://github.com/jspsych/jsPsych/) into a directory(check the right side of the [page](https://github.com/jspsych/jsPsych/), under 'Releases').
